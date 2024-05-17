@@ -22,7 +22,7 @@ def enumerate_backwards(my_list):
     number = 0
     while current_index < len(my_list):
         if my_list[current_index] != "":
-            new_list.append(f"{number}. {list_1[current_index][::-1]}")
+            new_list.append(f"{number}. {my_list[current_index][::-1]}")
             number += 1
         current_index += 1
     return new_list
