@@ -7,7 +7,7 @@ def enumerate_list(list_1):
     number = 0
     while current_index < len(list_1):
         if list_1[current_index] != "":
-            list_2 += f""{number}. {list_1[current_index]}""
+            list_2 += f"{number}. {list_1[current_index]}"
             number += 1
         current_index += 1
     return list_2
